@@ -7,7 +7,6 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      text-align: center;
     }
 
     header {
@@ -43,14 +42,28 @@
       color: black;
     }
 
+    #visitor-count {
+      margin-top: 10px;
+      text-align: center;
+    }
+
     #font-size-controls {
       margin-top: 10px;
+      text-align: center;
     }
 
     #font-size-controls button {
       padding: 5px 10px;
       margin: 5px;
       cursor: pointer;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
     }
   </style>
 </head>
@@ -60,23 +73,25 @@
     <h1>ZCBZ第九任主席竞选专题</h1>
     <nav>
       <ul>
-        <li><a href="index.html">首页</a></li>
+        <li><a href="index.html">首页 1</a></li>
         <li><a href="#">党务监督</a></li>
         <li><a href="#">党务政治</a></li>
+        <li><a href="#">ZCBZ共同发展联盟</a></li>
         <li><a href="#">三民主义国民党</a></li>
-        <li><a href="共盟.html">ZCBZ共同发展联盟</a></li>
       </ul>
     </nav>
   </header>
-  <h2>ZCBZ第九任主席竞选专栏</h2>
-  <p>7月11，ZCBZ第九任主席竞选工作现已开启</p>
-  <P>如有竞选疑问可以查看ZCBZ主席竞选条例<a href="#">点击查看</a>
   <div id="font-size-controls">
     <button onclick="changeFontSize('small')">小</button>
     <button onclick="changeFontSize('medium')">中</button>
     <button onclick="changeFontSize('large')">大</button>
   </div>
-
+  <h2>ZCBZ主席竞选注意事项</h2>
+  <p>1、每名党员包括ZCBZ共同发展联盟所属政党参与选举权和被选举权竞选工作</p>
+  <P>2、选举过程中每名党员仅有一次选举权，当投票投给他人时即选举权使用完毕，无法参与其他人竞选投票</P>
+  <P>3、投票完毕后需等待后期专栏工作内容进行多次复验，最终进行裁决任命</P>
+  <P>4、时间节点：1、7月11日专栏开始新一任主席竞选工作开始。2、7月13日进行参与人员编辑。3、7月25日-8月31日参与投票竞选。4、9月1日进行最后复核审议，对于相同票数的进行最终仲裁评判。5、9月2日公示ZCBZ新任主席及其副主席6.10月2日就职仪式</P>
+  <P>5、本次投票环节受ZCBZ民主选举院监督，对于违规行为将受到违禁制裁。</P>
   <script>
     function changeFontSize(size) {
       if (size ==='small') {
