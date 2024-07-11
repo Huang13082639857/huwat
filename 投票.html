@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: lightgreen;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    header nav ul li a:hover {
+      color: black;
+    }
+
+    #login-form {
+      margin-top: 20px;
+    }
+
+    #login-form input {
+      padding: 5px;
+      margin: 5px;
+    }
+
+    #login-form button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    #vote-section {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="your_image.jpg" alt="系统图片" style="width: 100%;">
+    <h2>网站名称</h2>
+    <form id="login-form">
+      <input type="text" placeholder="用户名">
+      <input type="password" placeholder="密码">
+      <button type="submit">登录</button>
+    </form>
+    <h3>以下是 15 个用户名和密码示例：</h3>
+    <ul>
+      <li>用户名：user1  密码：pass1</li>
+      <li>用户名：user2  密码：pass2</li>
+      <li>用户名：user3  密码：pass3</li>
+      <li>用户名：user4  密码：pass4</li>
+      <li>用户名：user5  密码：pass5</li>
+      <li>用户名：user6  密码：pass6</li>
+      <li>用户名：user7  密码：pass7</li>
+      <li>用户名：user8  密码：pass8</li>
+      <li>用户名：user9  密码：pass9</li>
+      <li>用户名：user10  密码：pass10</li>
+      <li>用户名：user11  密码：pass11</li>
+      <li>用户名：user12  密码：pass12</li>
+      <li>用户名：user13  密码：pass13</li>
+      <li>用户名：user14  密码：pass14</li>
+      <li>用户名：user15  密码：pass15</li>
+    </ul>
+  </div>
+
+  <script>
+    // 模拟登录验证（实际应用中应与后端交互）
+    document.getElementById('login-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+      var username = document.querySelector('#login-form input[type="text"]').value;
+      var password = document.querySelector('#login-form input[type="password"]').value;
+
+      // 假设用户名和密码匹配成功
+      if (username === 'user1' && password === 'pass1') {
+        window.location.href = 'vote_page.html';
+      } else if (username === 'user2' && password === 'pass2') {
+        window.location.href = 'vote_page.html';
+      } 
+      // 依次添加其他用户的登录跳转逻辑
+
+      else {
+        alert('用户名或密码错误，请重新输入');
+      }
+    });
+  </script>
+
+  <div id="vote-page">
+    <header>
+      <h1>网站名称</h1>
+      <nav>
+        <ul>
+          <li><a href="#">导航栏 1</a></li>
+          <li><a href="#">导航栏 2</a></li>
+          <li><a href="#">导航栏 3</a></li>
+          <li><a href="#">导航栏 4</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="vote-section">
+      <h2>投票</h2>
+      <form>
+        <input type="radio" name="vote" value="user1">user1<br>
+        <input type="radio" name="vote" value="user2">user2<br>
+        <input type="radio" name="vote" value="user3">user3<br>
+        <input type="radio" name="vote" value="user4">user4<br>
+        <input type="radio" name="vote" value="user5">user5<br>
+        <input type="radio" name="vote" value="user6">user6<br>
+        <input type="radio" name="vote" value="user7">user7<br>
+        <input type="radio" name="vote" value="user8">user8<br>
+        <input type="radio" name="vote" value="user9">user9<br>
+        <input type="radio" name="vote" value="user10">user10<br>
+        <input type="radio" name="vote" value="user11">user11<br>
+        <input type="radio" name="vote" value="user12">user12<br>
+        <input type="radio" name="vote" value="user13">user13<br>
+        <input type="radio" name="vote" value="user14">user14<br>
+        <input type="radio" name="vote" value="user15">user15<br>
+        <button type="submit">提交投票</button>
+      </form>
+      <p>当前投票情况：</p>
+    </div>
+  </div>
+</body>
+
+</html>
