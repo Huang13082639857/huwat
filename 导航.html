@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: lightskyblue;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    header nav ul li a:hover {
+      color: black;
+    }
+
+    #font-size-controls {
+      margin-top: 10px;
+    }
+
+    #font-size-controls button {
+      padding: 5px 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+  .link-box {
+      background-color: lightgray;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ZCBZ政治委员会</h1>
+    <nav>
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">ZCBZ主席竞选</a></li>
+        <li><a href="#">ZCBZ共同发展联盟</a></li>
+        <li><a href="#">专题内容</a></li>
+        <li><a href="#">政务公开</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h2>网站标题</h2>
+  <div id="font-size-controls">
+    <button onclick="changeFontSize('small')">小</button>
+    <button onclick="changeFontSize('medium')">中</button>
+    <button onclick="changeFontSize('large')">大</button>
+  </div>
+  <div class="link-box">
+    <a href="index.html">ZCBZ政治委员会</a>
+  </div>
+  <div class="link-box">
+    <a href="index2-副本.html">ZCBZ入党退党事务部</a>
+  </div>
+  <div class="link-box">
+    <a href="123.html">ZCBZ民主选举委员会</a>
+  </div>
+  <div class="link-box">
+    <a href="共盟.html">ZCBZ共同发展联盟</a>
+  </div>
+  <div class="link-box">
+    <a href="#">三民主义国民党</a>
+  </div>
+  <div class="link-box">
+    <a href="#">ZCBZ外务部</a>
+  </div>
+  <div class="link-box">
+    <a href="#">ZCBZ应对恶劣天气自然灾害防务部</a>
+  </div>
+  <div class="link-box">
+    <a href="#">ZCBZ宣传部</a>
+  </div>
+  <div class="link-box">
+    <a href="#">ZCBZ机关报刊《新民报》</a>
+  </div>
+  <div class="link-box">
+    <a href="#">ZCBZ政府官网</a>
+  </div>
+
+  <script>
+    function changeFontSize(size) {
+      if (size ==='small') {
+        document.body.style.fontSize = '12px';
+      } else if (size ==='medium') {
+        document.body.style.fontSize = '16px';
+      } else if (size === 'large') {
+        document.body.style.fontSize = '20px';
+      }
+    }
+  </script>
+</body>
+
+</html>
