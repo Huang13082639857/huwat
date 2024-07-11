@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: green;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    header nav ul li a:hover {
+      color: black;
+    }
+
+    #font-size-controls {
+      margin-top: 10px;
+    }
+
+    #font-size-controls button {
+      padding: 5px 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ZCBZ民主选举院</h1>
+    <nav>
+      <ul>
+        <li><a href="123.html">首页</a></li>
+        <li><a href="#">选举委员会</a></li>
+        <li><a href="#">领导成员</a></li>
+        <li><a href="#">选举安全办公室</a></li>
+      </ul>
+    </nav>
+  </header>
+<div id="font-size-controls">
+    <button onclick="changeFontSize('small')">小</button>
+    <button onclick="changeFontSize('medium')">中</button>
+    <button onclick="changeFontSize('large')">大</button>
+  </div>
+
+    <h2>ZCBZ第八任主席竞选结果之公示</h2>
+  <p>根据《ZCBZ竞选选举章程》《ZCBZ民主选举院选举主席法》之规定贯彻绝对公平化透明化信息公开目标，推动ZCBZ党及其附属党拥有崭新的未来经过规定合法竞选现在宣布ZCBZ民主选举院2023年第八任主席及其副主席及其常务政治委员会委员长公布名单</p>
+<P>经ZCBZ共同发展联盟安全部，ZCBZ民主选举院选举与安全办公室联合发表声明之要求此名单合法合理经过多次验证数据准确无误现在公布获得最高选举席位第一名：【时晨】6票获得ZCBZ第八任主席之位第二名：【董茂晨】3票，获得ZCBZ副主席之职务兼十二中总督之职务，第三名：【顾**】3票获得ZCBZ副主席之职务兼ZCBZ总政治委员会委员长之职务。此公布告示按照《ZCBZ竞选选举章程》《ZCBZ民主选举院选举主席法》依规合法公布，将在2023年10月2日依规宣誓就职，致力于更好发展推动ZCBZ更好发展</P>
+<P>特此，以正视听！</P> 
+<p>---------2023年9月</p>
+<P>                                 ---------ZCBZ民主选举院</P>
+ <script>
+    function changeFontSize(size) {
+      if (size ==='small') {
+        document.body.style.fontSize = '12px';
+      } else if (size ==='medium') {
+        document.body.style.fontSize = '16px';
+      } else if (size === 'large') {
+        document.body.style.fontSize = '20px';
+             }
+      }
+
+  </script>
+</body>
+
+</html>
