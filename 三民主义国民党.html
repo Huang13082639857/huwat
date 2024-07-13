@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      position: relative;
+    }
+
+    header img {
+      width: 100%;
+    }
+
+    header h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 36px;
+    }
+
+    nav {
+      background-color: lightblue;
+      padding: 20px 0;
+      font-size: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav a:hover {
+      color: black;
+    }
+
+  .link-box {
+      border: 1px solid black;
+      padding: 10px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+  .link-box a {
+      color: black;
+      display: block;
+      margin: 5px 0;
+    }
+
+  .link-box a:hover {
+      color: black;
+    }
+
+    #font-size-controls {
+      margin-top: 10px;
+    }
+
+    #font-size-controls button {
+      padding: 5px 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    main p {
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: green;
+      padding: 20px 0;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://img2.baidu.com/it/u=2234905429,593102130&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=439" alt="顶部图片">
+ <h1>三民主义国民党</h1>
+ </header>
+  <nav>
+    <a href="#">党务工作安排</a>
+    <a href="#">党内简介</a>
+    <a href="#">党务公开</a>
+    <a href="#">网址导航</a>
+    <a href="#">ZCBZ共同发展联盟</a>
+  </nav>
+  <div class="link-box">
+    <a href="#">关于三民主义国民党获得ZCBZ第九任主席之公告 </a>
+    <a href="#"> 时晨同志为党内发展做出重要指示</a>
+    <a href="#">编不行啦，自己看</a>
+    <a href="#">............</a>
+    <a href="#">.................</a>
+    <a href="#">................</a>
+    <a href="#">...............</a>
+    <a href="#">..............</a>
+    <a href="#">......................</a>
+    <a href="#">.........................</a>
+  </div>
+ <main>
+    <img src="https://img2.baidu.com/it/u=1688661576,2610908075&fm=253&fmt=auto&app=138&f=JPEG?w=550&h=362" alt="网站图片">
+    <h2>三民主义国民党官方网页</h2>
+    <p>自己写.......</p>
+  </main>
+  <footer>
+    <P>三民主义国民党版权所有  验证标识码：20002005</P>
+<p>保留一切权利</p>
+  </footer>
+
+  <script>
+    function changeFontSize(size) {
+      if (size ==='small') {
+        document.body.style.fontSize = '12px';
+      } else if (size ==='medium') {
+        document.body.style.fontSize = '16px';
+      } else if (size === 'large') {
+        document.body.style.fontSize = '20px';
+      }
+    }
+  </script>
+</body>
+
+</html>
