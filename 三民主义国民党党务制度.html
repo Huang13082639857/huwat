@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: green;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    header nav ul li a:hover {
+      color: black;
+    }
+
+    #font-size-controls {
+      margin-top: 10px;
+    }
+
+    #font-size-controls button {
+      padding: 5px 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>三民主义国民党</h1>
+    <nav>
+      <ul>
+        <li><a href="三民主义国民党.html">首页</a></li>
+        <li><a href="#">三民主义国民党政治部</a></li>
+        <li><a href="共盟.html">ZCBZ共同发展联盟</a></li>
+        <li><a href="导航.html">站点导航</a></li>
+      </ul>
+    </nav>
+  </header>
+<div id="font-size-controls">
+    <button onclick="changeFontSize('small')">小</button>
+    <button onclick="changeFontSize('medium')">中</button>
+    <button onclick="changeFontSize('large')">大</button>
+  </div>
+
+    <h2>三民主义国民党党员组织规章条例制度</h2>
+  <p>1：具有中国公民身份（海峡两岸）已满18岁的成年公民，皆有报名加入之资格。
+2：追求民主自由，反对专治集权，同意本党主张，并与本党利益不冲突的公民有报名加入之资格。
+3：将政治前途以及国家利益放在首位，将党的大政方针与国家实际相结合，积极投身于国家政治建设，民主管理者有申请加入之资格。
+4：将党的利益置于个人利益之上，主动承担并缴纳党费的各项指标，分担党务内容，做到心中有党，做事情看党。
+5：申请入党，必须有两名我党正式党员进行介绍，提交入党申请书，由支部和所属地方组织批准后，报省辖市组织进行批准，省辖市组织进行备案之后，报与中央组织部备案。备案成功后，书面通知本人及所属单位。党龄自支部大会通过起开始结算</P> 
+
+<P>                               三民主义国民党入党退党事务部（ZCBZ入党退党事务部）</P>
+ <script>
+    function changeFontSize(size) {
+      if (size ==='small') {
+        document.body.style.fontSize = '12px';
+      } else if (size ==='medium') {
+        document.body.style.fontSize = '16px';
+      } else if (size === 'large') {
+        document.body.style.fontSize = '20px';
+             }
+      }
+
+  </script>
+</body>
