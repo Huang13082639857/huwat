@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: green;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    header nav ul li a:hover {
+      color: black;
+    }
+
+    #font-size-controls {
+      margin-top: 10px;
+    }
+
+    #font-size-controls button {
+      padding: 5px 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>三民主义国民党</h1>
+    <nav>
+      <ul>
+        <li><a href="三民主义国民党.html">首页</a></li>
+        <li><a href="#">三民主义国民党政治部</a></li>
+        <li><a href="共盟.html">ZCBZ共同发展联盟</a></li>
+        <li><a href="导航.html">站点导航</a></li>
+      </ul>
+    </nav>
+  </header>
+<div id="font-size-controls">
+    <button onclick="changeFontSize('small')">小</button>
+    <button onclick="changeFontSize('medium')">中</button>
+    <button onclick="changeFontSize('large')">大</button>
+  </div>
+
+    <h2>三民主义国民党人事任免</h2>
+  <p>本党设主席一名，副主席两名，根据现有党务情况安排，暂时分为政治部，宣传部，组织部，教育部，纪律审查部，五大部门所组成，各部门分部长与副部长各一名。
+
+根据《三民主义国民党组织条例协定》，《党龄计算法》以及《三民主义国民党党务工作报告》审查，下面将对于本党人员进行具体的工作安排，以便于本党进一步的发展工作。
+
+一，任命时晨同志为三民主义国民党的党主席，负责党务工作，统筹协调党派各项职能，做好领导带头作用。
+
+二，任命秦X信同志，作为三民主义国民党的副主席，协助主席进行党务工作管理，调节党派内部工作，履行职能，做好辅助带头作用。
+
+三，任命王X鹏同志作为本党的政治部部长，做好本党的政治工作安排，提出好的政治大政方针建设，推动党政一体，以党促政，以政促党。
+
+四，任命黄X杭同志作为我党的宣传部部长，促进党派的文艺宣传建设，与时俱进，紧跟时代特色，体现党派文化。
+
+五，任命袁X宣同志为教育部部长，推动党派的教育教学工作，以教治党，教化育人，促进党务工作的教育化建设。
+
+六，任命刘X博为纪律审查部的部长，总揽本党的纪律督查工作，坚持执法从严，违法必究，将纪律工作作为党避免贪污腐败的坚定基石。</P> 
+
+<P>                               三民主义国民党党员选举院（ZCBZ民主选举院）</P>
+ <script>
+    function changeFontSize(size) {
+      if (size ==='small') {
+        document.body.style.fontSize = '12px';
+      } else if (size ==='medium') {
+        document.body.style.fontSize = '16px';
+      } else if (size === 'large') {
+        document.body.style.fontSize = '20px';
+             }
+      }
 
