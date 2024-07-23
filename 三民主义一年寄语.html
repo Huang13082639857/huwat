@@ -11,34 +11,35 @@
     }
 
     header {
-      position: relative;
-    }
-
-    header img {
-      width: 100%;
+      background-color: green;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
     }
 
     header h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 36px;
+      margin: 0;
     }
 
-    nav {
-      background-color: green;
-      padding: 20px 0;
-      font-size: 20px;
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
     }
 
-    nav a {
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
       text-decoration: none;
       color: white;
     }
 
-    nav a:hover {
+    header nav ul li a:hover {
       color: black;
     }
 
@@ -51,26 +52,13 @@
       margin: 5px;
       cursor: pointer;
     }
-
-    main a {
-      color: black;
-      display: block;
-      margin: 10px 0;
-    }
-
-    footer {
-      background-color: green;
-      padding: 20px 0;
-      color: white;
-    }
   </style>
 </head>
 
 <body>
   <header>
-    <img src="https://img1.baidu.com/it/u=3942681488,64864649&fm=253&fmt=auto&app=138&f=JPEG?w=720&h=270" alt="顶部图片">
     <h1>三民主义国民党</h1>
-  </header>
+    <nav>
   <nav>
     <a href="三民主义国民党.html">首页</a>
     <a href="#">下一篇</a>
