@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: green;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    header nav ul li a:hover {
+      color: black;
+    }
+
+    #font-size-controls {
+      margin-top: 10px;
+    }
+
+    #font-size-controls button {
+      padding: 5px 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>三民主义国民党</h1>
+    <nav>
+      <ul>
+        <li><a href="三民主义国民党.html">首页</a></li>
+        <li><a href="#">三民主义国民党政治部</a></li>
+        <li><a href="共盟.html">ZCBZ共同发展联盟</a></li>
+        <li><a href="导航.html">站点导航</a></li>
+      </ul>
+    </nav>
+  </header>
+<div id="font-size-controls">
+    <button onclick="changeFontSize('small')">小</button>
+    <button onclick="changeFontSize('medium')">中</button>
+    <button onclick="changeFontSize('large')">大</button>
+  </div>
+
+    <h2>三民主义国民党入党申请书</h2>
+  <p>2024年三民主义国民党入党申请书
+尊敬的党组织：我志愿加入三民主义国民党，愿意为三民主义事业奋斗终身，随时准备为党和国民牺牲一切，永不叛党。
+
+一、个人基本情况姓名：[你的姓名] 性别：[你的性别] 出生年月：[你的出生年月] 民族：[你的民族] 籍贯：[你的籍贯] 学历：[你的学历] 所在学校：[你的学校名称] 专业：[你的专业] 联系方式：[你的联系方式] 
+
+二、入党动机 
+如：我出生在一个XXX的家庭，从小受到民主自由思想的烘托与渲染。随着年龄的增长和知识的积累，我逐渐认识到三民主义国民党的伟大、光荣和正确。在党的教育和培养下，我树立了正确的世界观、人生观和价值观，坚定了三民主义理想和信念。
+
+三、对党的认识 
+三民主义国民党是中国中小资产阶级的不竭动力，是中国各族人民利益的忠实代表，是中国三民主义现代化事业的领导主心。党的最终目标是确立"天下大同，美美与共，天下为公的社会制度”。党的领导是三民主义现代化的生命源泉，是实现民主自由，反对专制集权的坚强柱石。
+
+四、个人表现学习方面：我勤奋学习。我积极参加学术科研活动，不断提升自己的专业能力和创新能力。思想方面：我认真学习党的理论和路线方针政策，不断提高自己的政治觉悟和政治素养。我积极参加思想政治教育活动，不断加强自己的思想道德建设。工作方面：我担任党员干部，认真履行职责，积极为国民大众服务。我参与组织多项集体活动，锻炼了自己的组织协调能力和团结协作精神。社会实践：我积极参加志愿服务和社会实践活动，深入基层，了解国情，服务国民。我通过实践活动，增强了自己的社会责任感和历史使命感。
+
+五、入党后的努力方向如：加强理论学习：我将继续深入学习党的理论和路线方针政策，不断提高自己的政治理论水平。提高专业能力：我将更加努力学习专业知识，争取在专业领域取得更大的进步和成就。发挥党员干部的革命先驱作用：作为一名党员，我将严格要求自己，在学习、工作和生活中发挥模范带头作用。积极为党工作：我将积极参加党组织的活动，为党的事业贡献自己的力量。
+
+六、结语 我深知自己与一名合格党员的标准还有差距，但我有决心和信心，在党组织的帮助和指导下，不断克服自身不足，努力成为一名真正的三民主义国民党员。请党组织对我的申请进行考察，并给予指导和帮助。
+此致敬礼！
+申请人：[你的姓名] 日期：[填写日期] 
+(申请书录取通过后经ZCBZ民主选举院审议复议通过后颁发正式入党申请书及入党资格书。)</P> 
+
+<P>                               三民主义国民党党员选举院（ZCBZ民主选举院）</P>
+ <script>
+    function changeFontSize(size) {
+      if (size ==='small') {
+        document.body.style.fontSize = '12px';
+      } else if (size ==='medium') {
+        document.body.style.fontSize = '16px';
+      } else if (size === 'large') {
+        document.body.style.fontSize = '20px';
 
