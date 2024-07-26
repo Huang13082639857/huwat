@@ -1,117 +1,177 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZCYZ民主党</title>
+  <title>网站模板</title>
   <style>
-    a:hover {
+    body {
+      text-align: center;
+    }
+
+    nav {
+      background-color: green;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    nav a:hover {
       color: white;
     }
- /* 加粗导航栏 */
-    nav {
+
+    /* 轮播图样式 */
+  .carousel {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /* 方块样式，添加间隙 */
+  .square {
+      width: 30%;
+      display: inline-block;
+      vertical-align: top;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid black;
+      box-sizing: border-box;
+      margin-right: 20px; 
+    }
+
+  .square:last-child {
+      margin-right: 0; 
+    }
+
+  .square a {
+      color: black;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+  .square a:hover {
+      color: white;
+    }
+
+    footer {
+      background-color: green;
+      padding: 10px 0;
+    }
+
+    footer a {
+      color: black;
+      text-decoration: none;
+      padding: 10px 20px;
       font-weight: bold;
+    }
+
+    footer a:hover {
+      color: white;
     }
   </style>
 </head>
 
 <body>
-
-  <!-- 顶部 logo -->
-  <div style="text-align: center;">
-    <img src="https://p3-sign.douyinpic.com/tos-cn-i-p14lwwcsbr/22d69234fb154c60953f36f46096fd9a~tplv-p14lwwcsbr-x2-q75-r:248:332:q75.image?x-expires=1722020400&x-signature=pTUzKnQUq5bKQyIyNyKuwtD%2F%2BZg%3D&from=2064092626&se=false&sc=thumb&biz_tag=aweme_comment&l=20240726215446CE9BE091077F6922523D" alt="网站" width="1000">
-  </div>
+  <!-- 插入 logo -->
+  <img src="https://p3-sign.douyinpic.com/tos-cn-i-p14lwwcsbr/22d69234fb154c60953f36f46096fd9a~tplv-p14lwwcsbr-x2-q75-r:248:332:q75.image?x-expires=1722020400&x-signature=pTUzKnQUq5bKQyIyNyKuwtD%2F%2BZg%3D&from=2064092626&se=false&sc=thumb&biz_tag=aweme_comment&l=20240726215446CE9BE091077F6922523D" alt="网站 logo" width="1000">
 
   <!-- 绿色导航栏 -->
-  <div style="background-color: green; text-align: center;">
-    <a href="#" style="color: black;">站点导航</a>
-    <a href="#" style="color: black;">民主交流</a>
-    <a href="#" style="color: black;">民主公示</a>
-    <a href="#" style="color: black;">党内任命</a>
-    <a href="#" style="color: black;">对外交流</a>
-    <a href="#" style="color: black;">ZCBZ共同发展联盟政治部</a>
-  </div>
+  <nav>
+    <a href="#">站点导航</a>
+    <a href="#">ZCBZ共同发展联盟政治部</a>
+    <a href="#">民主公示</a>
+    <a href="#">党内任命</a>
+    <a href="#">对外交流</a>
+    <a href="#">加入我们</a>
+  </nav>
 
   <!-- 轮播图 -->
-  <div style="text-align: center;">
-    <img src="https://img0.baidu.com/it/u=255388654,2215489400&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=1979&amp;h=500" alt="图片" width="1000">
-      </div>
+  <div class="carousel">
+    <img src="https://img1.baidu.com/it/u=1033910751,1547758552&fm=253&fmt=auto&app=138&f=JPEG?w=1063&h=500" alt="Image 1" width="1000">
+   </div>
 
   <!-- 资讯字样 -->
-  <div style="text-align: center;">
-    <h2>党务资讯</h2>
+  <h2>党务资讯</h2>
+
+  <!-- 第一组方块 -->
+  <div class="square">
+    <h3>ZCBZ附属ZCYZ党务新闻</h3>
+    <a href="#"关于做好ZCBZ党内主席工作意见【2024.7.11】</a>
+    <a href="#">ZCBZ共同发展联盟关于ZCYZ民主党改名的同意【2024.7.10】</a>
+    <a href="#">发布7月份党内政治公示【2024.7.21】</a>
+    <a href="#">【新民报文学社】（自由的风）【2024.7.18】</a>
+    <a href="#">ZCYZ新任领导班子成员【2023.1.1】</a>
   </div>
 
-  <!-- 左中右方块 -->
-  <div style="display: flex; justify-content: center;">
-    <div style="width: 1000px; background-color: lightgray;">
-      <h3>ZCBZ附属ZCYZ党务新闻</h3>
-      <a href="#" style="color: black;">关于做好ZCBZ党内主席工作意见【2024.7.11】</a>
-      <a href="#" style="color: black;">ZCBZ共同发展联盟关于ZCYZ民主党改名的同意【2024.7.10】</a>
-      <a href="#" style="color: black;">发布7月份党内政治公示【2024.7.21】</a>
-      <a href="#" style="color: black;">ZCYZ新任领导班子成员【2023.1.1】</a>
-      <a href="#" style="color: black;">【新民报文学社】（自由的风）【2024.7.18】</a>
-    </div>
-    <div style="width: 1000px; background-color: lightgray;">
-      <h3>ZCBZ发展区域集体新闻</h3>
-      <a href="#" style="color: black;">做好ZCBZ各党派互助互通共享的新方式【2024.7.11】</a>
-      <a href="#" style="color: black;">建立ZCBZ区域管理意见的纲领文件【2024.7.11】</a>
-      <a href="#" style="color: black;">关于ZCBZ协调引领发展公示【2024.6.14】</a>
-      <a href="#" style="color: black;">ZCYZ学习社团：更好的参与新未来【2024.5.9】</a>
-      <a href="#" style="color: black;">ZCBZ民主选举院院长：ZCBZ主席竞选重中之重【2024.7.2】</a>
-    </div>
-    <div style="width: 1000px; background-color: lightgray;">
-      <h3>ZCYZ民主之音</h3>
-      <a href="#" style="color: black;">探寻文艺复兴的欧洲【2024.5.30】</a>
-      <a href="#" style="color: black;">反抗帝国主义的爱国五四运动【2024.6.1】</a>
-      <a href="#" style="color: black;">清政府的推翻与民国建立【2024.6.5】</a>
-      <a href="#" style="color: black;">民国的覆灭【2024.6.8】</a>
-      <a href="#" style="color: black;">资本主义的发展【2024.7.5】</a>
-    </div>
+  <div class="square">
+    <h3>ZCBZ区域集团新闻</h3>
+    <a href="#">做好ZCBZ各党派互助互通共享的新方式【2024.7.11】</a>
+    <a href="#">建立ZCBZ区域管理意见的纲领文件【2024.7.11】</a>
+    <a href="#">关于ZCBZ协调引领发展公示【2024.6.14】</a>
+    <a href="#">ZCYZ学习社团：更好的参与新未来【2024.5.9】</a>
+    <a href="#">ZCBZ民主选举院院长：ZCBZ主席竞选重中之重【2024.7.2】</a>
   </div>
 
-  <!-- 下方图片 -->
-  <div style="text-align: center;">
-    <img src="https://img2.baidu.com/it/u=428424358,2912307691&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=750&amp;h=500" alt="底部图片" width="900">
+  <div class="square">
+    <h3>ZCBZ民主之音</h3>
+    <a href="#">探寻文艺复兴的欧洲【2024.5.30】</a>
+    <a href="#">反抗帝国主义的爱国五四运动【2024.6.1】</a>
+    <a href="#">清政府的推翻与民国建立【2024.6.5】</a>
+    <a href="#">民国的覆灭【2024.6.8】</a>
+    <a href="#">资本主义的发展【2024.7.5】</a>
   </div>
 
-  <!-- 下方左中右方块 -->
-  <div style="display: flex; justify-content: center;">
-    <div style="width: 1000px; background-color: lightgray;">
-      <h3>ZCYZ自由交流</h3>
-      <a href="#" style="color: black;">ZCYZ民主党主席对三民主义国民党进行党内发展合作交流【2024.7.21】</a>
-      <a href="#" style="color: black;">ZCYZ民主党参与社会公益活动【2024.7.3】</a>
-      <a href="#" style="color: black;">ZCYZ民主党参与各党派联谊活动【2024.7.8】</a>
-      <a href="#" style="color: black;">ZCYZ民主党与三民主义国民党座谈会议【2024.6.6】</a>
-      <a href="#" style="color: black;">ZCBZ共同发展联盟关于ZCYZ民主党改名的同意【2024.7.10】</a>
-    </div>
-    <div style="width: 1000px; background-color: lightgray;">
-      <h3>ZCYZ独立合作</h3>
-      <a href="#" style="color: black;">超链接 21</a>
-      <a href="#" style="color: black;">超链接 22</a>
-      <a href="#" style="color: black;">超链接 23</a>
-      <a href="#" style="color: black;">超链接 24</a>
-      <a href="#" style="color: black;">超链接 25</a>
-    </div>
-    <div style="width: 1000px; background-color: lightgray;">
-      <h3>ZCBZ共同发展联盟新闻</h3>
-      <a href="#" style="color: black;">超链接 26</a>
-      <a href="#" style="color: black;">超链接 27</a>
-      <a href="#" style="color: black;">超链接 28</a>
-      <a href="#" style="color: black;">超链接 29</a>
-      <a href="#" style="color: black;">超链接 30</a>
-    </div>
+
+  <!-- 第二组方块 -->
+  <div class="square">
+    <h3>ZCYZ自由交流</h3>
+    <a href="#">ZCYZ民主党主席对三民主义国民党进行党内发展合作交流【2024.7.21】</a>
+    <a href="#">ZCYZ民主党参与社会公益活动【2024.7.3】</a>
+    <a href="#">ZCYZ民主党参与各党派联谊活动【2024.7.8】</a>
+    <a href="#">ZCYZ民主党与三民主义国民党座谈会议【2024.6.6】</a>
+    <a href="#">ZCBZ共同发展联盟关于ZCYZ民主党改名的同意【2024.7.10】</a>
   </div>
+
+  <div class="square">
+    <h3>ZCYZ独立合作</h3>
+    <a href="#">链接 21</a>
+    <a href="#">链接 22</a>
+    <a href="#">链接 23</a>
+    <a href="#">链接 24</a>
+    <a href="#">链接 25</a>
+  </div>
+
+  <div class="square">
+    <h3>ZCBZ共同发展联盟新闻</h3>
+    <a href="#">链接 26</a>
+    <a href="#">链接 27</a>
+    <a href="#">链接 28</a>
+    <a href="#">链接 29</a>
+    <a href="#">链接 30</a>
+  </div>
+<h3>ZCYZ民主党官方网页</h3>
+    <p>党派简历</P>
+<P>本党派建立于2020年11月3日，前身为ZCBZ国家社会主义民众党，由于党系调整等改变故更名为[ZCYZ民主党]本党立党初衷在于唤醒弱势群体在不破坏任何国家或地区法律的基础上，共同面对不公平待遇并
+予以反抗，唤醒被压迫之民众树立共同的，自由的，民主的，公平的，价值准则，无论肤色人种，口音地域，性格差异，无论孩童，青年学生，工人，老人凡认可该党价值准则均可
+加入我们，我们立志不断克服困难，努力实现奋斗的目标，靠着自己来不断实现自由与民主。该党的每一个经费都将支持山区贫困地区困难家庭以最大程度恢复正常生活水平，服务
+社会，本党勇立时代，不怕困难勇往直前，以实际行动不断推进ZCYZ民主党不断进步和前进。</p>
+  </main>
 
   <!-- 绿色末尾栏 -->
-  <div style="background-color: green; text-align: center;">
-    <a href="#" style="color: black; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);">ZCBZ总政治部</a>
-    <a href="#" style="color: black; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);">ZCBZ民主选举院</a>
-    <a href="#" style="color: black; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);">ZCBZ共同发展联盟</a>
-    <a href="#" style="color: black; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);">ZCYZ共同发展委员会</a>
+  <footer>
+    <a href="#">ZCBZ总政治部</a>
+    <a href="#">ZCBZ民主选举院</a>
+    <a href="#">ZCBZ共同发展联盟</a>
+    <a href="#">ZCYZ党务办</a>
     <p>版权所有：ZCYZ民主党   验证代码：40020008</p>
-         <p>   保留一切权利</p>
-  </div>
+ <p>保留一切权利</p>
+  </footer>
+</body>
 
-
-
-</body><div id="mask-2E010B9A-9E10-498E-8664-8A0DAA22D7CB" style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; mix-blend-mode: unset; pointer-events: none; transition: opacity 0.1s ease 0s; opacity: 1; display: none; background: rgba(255, 255, 255, 0);"></div></html>
+</html>
