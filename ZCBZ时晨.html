@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: green;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    header nav ul li {
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    header nav ul li a:hover {
+      color: black;
+    }
+
+    #font-size-controls {
+      margin-top: 10px;
+    }
+
+    #font-size-controls button {
+      padding: 5px 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ZCBZ民主选举院</h1>
+    <nav>
+      <ul>
+        <li><a href="选举委员会.html">首页</a></li>
+        <li><a href="#">ZCYZ政治部</a></li>
+        <li><a href="共盟.html">ZCBZ共同发展联盟</a></li>
+        <li><a href="导航.html">站点导航</a></li>
+      </ul>
+    </nav>
+  </header>
+<div id="font-size-controls">
+    <button onclick="changeFontSize('small')">小</button>
+    <button onclick="changeFontSize('medium')">中</button>
+    <button onclick="changeFontSize('large')">大</button>
+  </div>
+
+    <h2>ZCBZ民主选举院关于时晨主席第二主席令审议结果</h2>
+  <p>  20日夜间，经ZCBZ总书记审议向本院提出上诉并弹劾本党主席时晨同志的意见之结果现在公告，本院审理时晨主席颁布主席令期间，企图解散本党，严重违法本党重要指示精神【立足党本，民主发展】，造成严重恐慌情节行为极其恶劣。经ZCBZ民主选举院第十届代表大会二次会议审议，特此将第二条主席令命令定为非法属性，不产生任何影响。时晨主席该命令将记录《党纪律规范》影响其未来主席竞选之工作，并予以记过处理。
+</P>
+<P>特此，以正视听！</P>
+<P>                                       ---ZCBZ民主选举院</P>
+ <script>
+    function changeFontSize(size) {
+      if (size ==='small') {
+        document.body.style.fontSize = '12px';
+      } else if (size ==='medium') {
+        document.body.style.fontSize = '16px';
+      } else if (size === 'large') {
+        document.body.style.fontSize = '20px';
+             }
+      }
+
+  </script>
+</body>
+
